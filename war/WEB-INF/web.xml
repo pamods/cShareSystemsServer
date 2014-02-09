@@ -31,9 +31,7 @@
 	
 	<servlet-mapping>
 		<servlet-name>SaveServlet</servlet-name>
-		<!--<url-pattern>/c2RmbHl1YmRhc2ZmcmZ5</url-pattern>-->
-		<url-pattern>/aXRvcGlibmZkbGtma29p</url-pattern>
-		<!--<url-pattern>/save</url-pattern>-->
+		<url-pattern>/save</url-pattern>
 	</servlet-mapping>
 	
 	<servlet-mapping>

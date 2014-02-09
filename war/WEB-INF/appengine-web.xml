@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
-  <!--<application>winged-will-482</application>-->
+  <application>winged-will-482</application> <!--  Default Server -->
   <!--<application>pa-matches</application>-->
-  <application>pa-esports</application>
+  <!--<application>pa-esports</application>-->
   <version>1</version>
 
   <!--
