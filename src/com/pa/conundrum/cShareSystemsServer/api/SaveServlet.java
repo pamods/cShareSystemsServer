@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 
 
 import com.google.gson.Gson;
-import com.pa.conundrum.cShareSystems.api.datastore.models.Planets;
-import com.pa.conundrum.cShareSystems.api.datastore.models.SharedSystem;
-import com.pa.conundrum.cShareSystems.datastore.DatastoreModel;
+import com.pa.conundrum.cShareSystemsServer.datastore.DatastoreModel;
+import com.pa.conundrum.cShareSystemsServer.datastore.models.Planets;
+import com.pa.conundrum.cShareSystemsServer.datastore.models.SharedSystem;
 
 public class SaveServlet extends HttpServlet {
 

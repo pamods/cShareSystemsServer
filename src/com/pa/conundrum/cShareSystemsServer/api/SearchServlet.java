@@ -25,10 +25,10 @@ import com.google.appengine.api.search.SearchException;
 import com.google.appengine.api.search.SearchQueryException;
 import com.google.appengine.api.search.SearchServiceFactory;
 import com.google.appengine.api.search.StatusCode;
-import com.pa.conundrum.cShareSystems.api.datastore.models.SharedSystem;
-import com.pa.conundrum.cShareSystems.datastore.PMF;
-import com.pa.conundrum.cShareSystems.datastore.SharedSystemComparator;
 import com.pa.conundrum.cShareSystemsServer.api.beans.ApiSearchRequestBean;
+import com.pa.conundrum.cShareSystemsServer.datastore.PMF;
+import com.pa.conundrum.cShareSystemsServer.datastore.SharedSystemComparator;
+import com.pa.conundrum.cShareSystemsServer.datastore.models.SharedSystem;
 
 public class SearchServlet extends HttpServlet {
 

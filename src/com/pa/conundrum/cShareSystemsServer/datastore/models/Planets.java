@@ -1,4 +1,4 @@
-package com.pa.conundrum.cShareSystems.api.datastore.models;
+package com.pa.conundrum.cShareSystemsServer.datastore.models;
 
 import java.util.ArrayList;
 

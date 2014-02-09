@@ -1,8 +1,8 @@
-package com.pa.conundrum.cShareSystems.datastore;
+package com.pa.conundrum.cShareSystemsServer.datastore;
 
 import java.util.Comparator;
 
-import com.pa.conundrum.cShareSystems.api.datastore.models.SharedSystem;
+import com.pa.conundrum.cShareSystemsServer.datastore.models.SharedSystem;
 
 public class SharedSystemComparator implements Comparator<SharedSystem> {
 	

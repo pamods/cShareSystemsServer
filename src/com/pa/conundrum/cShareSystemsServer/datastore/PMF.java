@@ -1,4 +1,4 @@
-package com.pa.conundrum.cShareSystems.datastore;
+package com.pa.conundrum.cShareSystemsServer.datastore;
 
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManagerFactory;

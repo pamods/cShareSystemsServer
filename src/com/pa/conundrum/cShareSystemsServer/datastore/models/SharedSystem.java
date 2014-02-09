@@ -1,4 +1,4 @@
-package com.pa.conundrum.cShareSystems.api.datastore.models;
+package com.pa.conundrum.cShareSystemsServer.datastore.models;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 import com.google.appengine.api.datastore.Text;
-import com.pa.conundrum.cShareSystems.datastore.DatastoreModel;
+import com.pa.conundrum.cShareSystemsServer.datastore.DatastoreModel;
 
 @PersistenceCapable
 public class SharedSystem extends DatastoreModel {
