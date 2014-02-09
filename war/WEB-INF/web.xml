@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<!-- Servlets -->
+
+	<servlet>
+		<servlet-name>KeepAliveServlet</servlet-name>
+		<servlet-class>com.pa.conundrum.cShareSystemsServer.api.KeepAliveServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SaveServlet</servlet-name>
+		<servlet-class>com.pa.conundrum.cShareSystemsServer.api.SaveServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SearchServlet</servlet-name>
+		<servlet-class>com.pa.conundrum.cShareSystemsServer.api.SearchServlet</servlet-class>
+	</servlet>
+	
+
+	<!-- Servlet Mappings -->
+
+	<servlet-mapping>
+		<servlet-name>KeepAliveServlet</servlet-name>
+		<url-pattern>/keepalive</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SaveServlet</servlet-name>
+		<!--<url-pattern>/c2RmbHl1YmRhc2ZmcmZ5</url-pattern>-->
+		<url-pattern>/aXRvcGlibmZkbGtma29p</url-pattern>
+		<!--<url-pattern>/save</url-pattern>-->
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SearchServlet</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>System_Sharing.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
